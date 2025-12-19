@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travels.com</title>
+    <meta name="robots" content="noindex, nofollow">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<div style="display:none">
+  This website is a front-end educational project created for learning purposes only.
+  It is not affiliated with, endorsed by, or connected to Booking.com or any real travel service.
+</div>
+
 <header class="main">
     <div class="top-bar">
-        <div class="logo">Travels.com</div>
+        <div class="logo">Travels.com <span style="display:none">(Demo)</span></div>
 
         <div class="top-right">
             <span>INR</span>
@@ -23,8 +30,9 @@
 
             <a href="#" class="property-link">List your property</a>
 
-            <button class="btn-outline">Register</button>
-            <button class="btn-outline">Sign in</button>
+            <button class="btn-outline" aria-label="Demo register button">Register</button>
+<button class="btn-outline" aria-label="Demo sign in button">Sign in</button>
+
         </div>
     </div>
     <nav class="navbar">
@@ -523,7 +531,8 @@
 
     <div class="footer-bottom">
         <p>
-            Travels.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+            Travels.com is a front-end demo project created for educational purposes only.
+
         </p>
         <p>
             Copyright © 1996–2025 Travels.com™. All rights reserved.
